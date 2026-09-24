@@ -1,0 +1,24 @@
+# Private execution artifacts do not belong in this documentation package.
+.DS_Store
+.env
+.env.*
+!.env.example
+.local-edit-log/
+**/.local-edit-log/
+private/
+run-log.md
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mov
+*.MP4
+*.MOV
+*.pt
+*.pth
+*.safetensors
+
+# Only reviewed showcase outputs may be explicitly included in a release.
+!examples/freya-60s.mp4
+!examples/cover-9x16.jpg
+!examples/cover-3x4.jpg
