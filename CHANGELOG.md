@@ -13,3 +13,8 @@
 后续只记录已确认、可公开的默认规则变化。实验、个人媒体、私有路径及单次交付日志不进入公开变更记录。
 
 Only confirmed public workflow changes belong here. Experiments, personal media, private paths, and per-delivery logs remain private.
+
+## 2026-09-25 · 开头音效规则
+
+- 新增当前创作者首秒综艺音效偏好，覆盖当前修改及后续多语视频。
+- 首句人声优先，混合参考先分离，保留试听状态；参考音频不随公开技能分发。
