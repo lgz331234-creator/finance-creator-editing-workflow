@@ -1,0 +1,4 @@
+interface:
+  display_name: "财经博主剪辑工作流"
+  short_description: "财经短视频剪辑：封面、动态素材、双语字幕与音画同步验收"
+  default_prompt: "使用 $finance-creator-editing-workflow 按我已认可的封面与全屏剪辑风格制作视频，确保旁白、字幕、素材同步，验收后放桌面。"
