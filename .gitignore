@@ -5,6 +5,10 @@
 !.env.example
 .local-edit-log/
 **/.local-edit-log/
+.finance-workflow/
+**/.finance-workflow/
+__pycache__/
+*.pyc
 private/
 run-log.md
 *.wav
