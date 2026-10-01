@@ -1,0 +1,289 @@
+{
+  "schema": 1,
+  "version": "1.7.0",
+  "name": "finance-creator-editing-workflow",
+  "policy": {
+    "default": "installed_verified_latest",
+    "legacy_project": "backup_and_migrate_before_export",
+    "cover": "authorized_cover_asset_separate_no_default_invideo_hold",
+    "body": "centered_original_presenter_over_visible_broll_or_window",
+    "shot_target_seconds": [
+      8,
+      12
+    ],
+    "chinese_max_visible_characters_per_line": 10,
+    "duplicate_asset_key": "sha256",
+    "voice": "preserve_authorized_identity_level_consistently",
+    "voice_reference": "蔡公子_reference_loudness_only_no_identity_imitation",
+    "bgm_policy": "compliant_suspense_business_instrumental_with_usage_ledger",
+    "narration_qa": "listen_for_stutters_clipped_joins_duplicate_words_and_pronunciation",
+    "visual_variety": "distinct_subject_overlay_and_motion_language_per_release_with_previous_release_reuse_check",
+    "opening_mode": "per_project_explicit_choice",
+    "review": "two_pass_technical_and_editorial_review_with_separate_evidence_and_listening_status",
+    "reference_mix_target": "蔡公子_reference_loudness_only_no_identity_imitation",
+    "require_bgm_rotation": true,
+    "require_narration_listening_qa": true,
+    "require_two_pass_review": true,
+    "transition_target_seconds": null,
+    "voice_consistency": "saved_creator_profile_calibrated_per_source",
+    "script_preflight": "alignment_and_mismatch_review_no_rewrite_for_approved_script",
+    "require_script_smoothing_before_edit": false,
+    "context_budget": {
+      "project_task": "one_active_editing_task_with_explicit_handoff",
+      "resumption": "short_project_card_and_changed_evidence_only",
+      "per_video_exceptions": "stored_in_project_not_promoted_to_creator_defaults",
+      "pending_or_changed_script": "block_export_until_real_rebuild_evidence",
+      "entrypoint_reads_per_task": 1,
+      "handoff_format": "short_state_card_and_diff",
+      "forbid_replay": [
+        "full_conversation",
+        "unchanged_run_log",
+        "unchanged_script",
+        "old_storyboard"
+      ],
+      "re_read_on": [
+        "changed_field",
+        "failed_check",
+        "new_project_phase"
+      ],
+      "quality_checks_preserved": true
+    },
+    "script_checks": [
+      "meaning_and_claims",
+      "spoken_fluency_and_breath_groups",
+      "duplicate_words_and_unfinished_joins",
+      "brand_and_english_name_pronunciation",
+      "sentence_to_visual_alignment"
+    ],
+    "script_production": {
+      "reference": "references/script-production.md",
+      "stages": [
+        "operation_topic",
+        "approved_spoken_script",
+        "storyboard"
+      ],
+      "compact_handoff_per_stage": true,
+      "new_task_only_on_user_request": true,
+      "storyboard_blocks": 9,
+      "cut_target_seconds": 3,
+      "allowed_transitions": [
+        "flash_white",
+        "hard_cut",
+        "zoom_in",
+        "shake_flash"
+      ],
+      "subtitle_emphasis": "highlight_key_terms",
+      "bgm_profile": "tense_light_fast_finance",
+      "upstream_prompts": [
+        "operation_topic_prompt",
+        "finance_copy_prompt"
+      ],
+      "missing_prompt_policy": "require_original_text_before_saving",
+      "scope": "separate_explicit_upstream_task_only_not_editing_mode"
+    },
+    "bgm_rotation": "avoid_recent_and_rejected_tracks_unless_explicit",
+    "sfx": "short_dong_semantic_cues_minimum_8_seconds_no_default_opening",
+    "creator_asset_binding": "private_local_profile_and_actual_editor_inputs",
+    "voice_source_default": "preserve_supplied_original_recording",
+    "chinese_edition_caption_languages": [
+      "zh-CN",
+      "en"
+    ],
+    "bgm_pool": "strict_business_instrumental_filter_then_rotate_compliant_assets",
+    "require_template_voice_caption_language_bgm_evidence": true,
+    "voice_reference_source": "private_creator_profile.voice.reference_asset_verified_sha256",
+    "voice_mix_preferences": "private_creator_profile.voice.mix_preferences; original_reference_over_historical_processed_narration; full_mix_lufs_is_not_speech_lufs",
+    "composition": {
+      "current_default": "chatcut_zhinan_finance",
+      "confirmed": "2026-09-29",
+      "elements": [
+        "centered_original_presenter",
+        "visible_lower_broll",
+        "whole_sentence_bilingual_captions",
+        "yellow_wipe_highlights",
+        "dark_yellow_title_cards",
+        "simple_data_MG"
+      ],
+      "supersedes": "earlier_mixed_collage_defaults_for_new_edits_only",
+      "preserve": [
+        "original_recording",
+        "authorized_cover_assets",
+        "bilingual_captions",
+        "speech_priority",
+        "approved_project_exceptions"
+      ],
+      "per_project_explicit_exception_wins": true
+    },
+    "visual_layout": "selected_private_reference; no_mandatory_all_fullscreen",
+    "visual_reference": "private_creator_profile.visuals.reference_asset_and_workflow_sources",
+    "composition_reference": "references/chatcut-zhinan-finance.md",
+    "visual_interval_max_seconds": 12,
+    "material_sticker": "real_subject_cutout_white_contour",
+    "semantic_material_check": "match_spoken_action_or_claim_not_just_company_association",
+    "local_entrypoint": "scripts/local_workflow.py",
+    "online_sourcing": {
+      "reference": "references/local-sourcing.md",
+      "source_per_spoken_line": true,
+      "fact_verification_before_edit": true,
+      "retrieval_not_approval": true,
+      "raw_creator_media_upload": false,
+      "cache": "project_local_sources_with_explicit_refresh",
+      "rendering": "existing_editor_by_Codex_not_the_source_script"
+    },
+    "ai_shots": {
+      "reference": "references/ai-shots.md",
+      "role": "short_illustrative_inserts_in_host_led_mixed_collage",
+      "default_provider": "vidmuse",
+      "provider_connection": "must_be_verified_in_current_account",
+      "per_minute_target": [
+        4,
+        8
+      ],
+      "duration_seconds": [
+        2,
+        3
+      ],
+      "required_record": [
+        "script_line",
+        "prompt",
+        "provider",
+        "model",
+        "request_id_when_available",
+        "output_sha256",
+        "media_probe",
+        "rights_review",
+        "semantic_review"
+      ],
+      "disallowed_as_evidence": [
+        "specific_event_footage",
+        "company_product_interface",
+        "real_person_or_public_figure",
+        "market_data_or_chart_value",
+        "news_or_deal_depiction"
+      ],
+      "timeline_rule": "only reviewed decodable vertical shots may enter the timeline",
+      "enabled_by_default": false
+    },
+    "editing_mode": {
+      "id": "chatcut_zhinan_finance",
+      "confirmed": "2026-09-29",
+      "reference": "references/chatcut-zhinan-finance.md",
+      "scope": "editing_only_original_aroll_and_locked_script",
+      "surface": "chatcut_hosted",
+      "skill": "chatcut-plugin-basics",
+      "official_repository": "https://github.com/ChatCut-Inc/agent-plugin.git",
+      "required_inputs": [
+        "original_aroll",
+        "approved_script"
+      ],
+      "script_rewrite": false,
+      "output": {
+        "width": 1080,
+        "height": 1920,
+        "fps": 30,
+        "duration_seconds": [
+          85,
+          92
+        ],
+        "planning_target_seconds": 90,
+        "primary": "real_editable_chatcut_multitrack_project",
+        "export_on_request": true
+      },
+      "structure": [
+        {
+          "id": "hook_empathy",
+          "start": 0,
+          "end": 20
+        },
+        {
+          "id": "reversal",
+          "start": 20,
+          "end": 40
+        },
+        {
+          "id": "analogy",
+          "start": 40,
+          "end": 75
+        },
+        {
+          "id": "synthesis",
+          "start": 75,
+          "end": 85
+        },
+        {
+          "id": "closing",
+          "start": 85,
+          "end": "actual_end_max_92",
+          "must_have_complete_spoken_closing": true
+        }
+      ],
+      "captions": {
+        "display": "whole_sentence_at_once",
+        "languages": [
+          "zh-CN",
+          "en"
+        ],
+        "keyword_mask": "yellow_left_to_right_wipe",
+        "position": "lower_safe_area",
+        "karaoke": false,
+        "typewriter": "cards_only"
+      },
+      "visuals": {
+        "presenter": "centered_above_visible_lower_broll",
+        "broll_visibility": "verified_matte_or_presenter_window",
+        "grade": "low_saturation_dark_business",
+        "allowed_transitions": [
+          "hard_cut",
+          "fade"
+        ],
+        "explanation_update_seconds": [
+          8,
+          12
+        ],
+        "extra_animation_in_3_20s": false,
+        "ai_video_default": false
+      },
+      "audio": {
+        "voice": "original_recording",
+        "music": "low_suspense_business_instrumental_no_pop_or_heavy_drums",
+        "speech_gain_db": -6,
+        "bgm_gain_db": -18,
+        "gain_basis": "relative_editor_gain_initial_values_not_lufs_or_dbfs",
+        "ducking": "speech_priority",
+        "bgm_speed": 1,
+        "sfx": "short_dong_only_reversal_number_key_conclusion",
+        "sfx_min_interval_seconds": 8,
+        "opening_variety_sfx": false,
+        "listening_required": true
+      },
+      "cover_hold_seconds": 0,
+      "speed": "consider_1.3x_once_only_if_natural_complete_and_85_92_seconds",
+      "delivery": [
+        "editable_chatcut_timeline",
+        "timed_bilingual_captions_and_highlights",
+        "broll_keywords_and_sources",
+        "sfx_cues",
+        "export_settings",
+        "editing_retention_rationale_without_performance_claims",
+        "manual_adjustment_list"
+      ]
+    },
+    "visual_interval_scope": "40_to_75_seconds_explanation_only"
+  },
+  "files": {
+    "SKILL.md": "7084eebaaee4d9cf0d1fd35ff7fc5448fd267e5b6ebcb92f305f7600d88fc244",
+    "agents/openai.yaml": "6914fdba54b78bb72013ec31510c81831221d5920741508faf3919958089b9a0",
+    "references/localization.md": "735257452118ec613626bdee3ee7760921bddf96354c9a0adec2231e8392ee9b",
+    "references/migration.md": "04d49ee88b30c23fe83b0679037feac62d8966c80bd3b8b3f22ee033eec0c180",
+    "references/script-production.md": "7600d6be38850f4f713f7bc70dc70dfc970605f2eed98b50d3284ed6c26110a3",
+    "references/timing-and-audio.md": "9c8e750860dfa0f61941d956893c25f146d490e5ed95e223b65ee4243297d44f",
+    "references/visuals-and-covers.md": "85c0f37a76057600409f938598c6c35a29eaaa7a9d4c50d7ab10d1336ecdbe91",
+    "scripts/workflow_guard.py": "d218bd6fe24a6625a6e23409ddcd3644f614db5356e833f52c9d51228bfd1008",
+    "references/reference-driven-composition.md": "5e56618e0aed3d24294ac8a7b2224f0fa84a9afc33e1da0ffde61091bc85dff3",
+    "scripts/local_workflow.py": "0dfe91664dc2c1a0ed2e6137bf1fcf9ad3103b02bb69a28b20a8177d2affac2b",
+    "tests/test_workflow.py": "3820d75eebde2546d54f1a0addd74205e598c710566dcbc335b41f37dc1c82af",
+    "references/local-sourcing.md": "35007cc3ebcd6fb622a2abd813a0c64ab71272eedaf1aacf2e7828eee84fdbe9",
+    "references/ai-shots.md": "d4e3fb4275141ec4faff9ff0f7e9df2ac08a6f7e7f0bd8e6228dab5fef27f677",
+    "references/chatcut-zhinan-finance.md": "12167a8c8670c382a669ecaa4d9d30ffbb511ecaeaab14c29a9b56e4cefaa6a0"
+  }
+}
