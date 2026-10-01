@@ -8,7 +8,9 @@ Use event footage for that event, market footage for market activity, and actual
 
 Aim for subject changes every 2–3 seconds, synchronized to the new spoken idea. This is an editing target rather than permission to cut words or force meaningless flashes. A longer explanatory animation should show meaningful new states; a minor zoom does not count as a fresh subject. Do not loop a short clip to fill a long sentence. Reframe or select additional source footage.
 
-Use full-screen compositions. Keep dynamic material large and readable instead of shrinking it into half-screen windows. Mix real footage, restrained motion on real photos, and diagrams only when they clarify the current phrase. Do not use giant animated yellow words as a substitute for meaningful visuals; yellow belongs primarily to the cover and deliberate highlights.
+Every release must vary its visual subject, subtitle emphasis, sticker/overlay treatment, and motion language from recent releases. Keep a reuse ledger keyed by SHA-256 and flag repeated generic charts, keyboards, skylines, or template animations before export. Apply the recognizable “直男财经” principles of sharp contrast, colloquial explanation, and dense purposeful cutting, while keeping all footage, scripts, faces, voices, and watermarks original or authorized.
+
+Use the current selected reference to choose composition. For the creator's narrator-led collage treatment, alternate talking-head pictures, synchronized narrator insets, real subject cutouts, photo/video inserts and readable annotations. Full-screen footage is available when the meaning calls for it; it is not the default for every line. See [reference-driven composition](reference-driven-composition.md). Do not use giant words or fabricated product diagrams in place of the real subject.
 
 ## Cover specification
 
@@ -27,3 +29,15 @@ Do not render bottom production notes such as “功能逻辑示意·非实际�
 ## Asset evidence
 
 A private manifest should retain filename, origin/link when applicable, date, usage permission or supplied-material status, transformation, and the spoken claim it supports. A stock license does not establish the truth of a depicted event. Do not export private consent records or source-account identifiers with a public skill release.
+
+## Current subtitle and reuse limits
+
+For this creator, each Chinese subtitle line has at most 10 visible characters, including punctuation and embedded Latin text. Split long phrases into natural timed units; never truncate trailing words or squeeze the font. Check both SRT and the rendered text. Keep matching English subtitles close without overlap.
+
+Deduplicate footage by SHA-256, not filenames. Renaming or selecting another excerpt from the same source does not make it a different asset. Record each shot's semantic purpose and duration. A shot beyond the 2–3-second target needs a meaningful new animation state or a comprehension reason, not frozen or looped filler.
+
+Cover identity and body appearance are separate: use the confirmed cover asset, never infer whose face it is or treat cover permission as authorization for talking-head footage. Preserve the project's explicit voice-only or talking-head mode.
+
+## Confirmed material alignment refinement (2026-09-28)
+
+For this creator, never let more than 3 seconds pass without changing or adding a meaningful narration-matched material state. A host zoom or generic decorative title alone does not satisfy this limit. A smooth spoken phrase stays intact while the visual layers change. Real physical product stickers should use an actual subject cutout with a white contour, not a small rectangular photograph frame. Company-name association is insufficient: for a signing agreement show counterpart identifiers and the actual agreement; for a large monetary amount show legible scaled money imagery/numbers and a timed money cue. Do not paste a team member or office building merely because it belongs to the company. Material size, arrow targets and on-screen amount readability must be checked in the current export.
